@@ -33,5 +33,6 @@ class String
     #self.squeeze(".?!").split(/[.?!]/).count
     if self.count("")
       return 0
+    end 
   end 
 end
