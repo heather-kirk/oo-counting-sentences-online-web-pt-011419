@@ -30,9 +30,7 @@ class String
     #split at punctuation marks
     #self.split(".?!")
     #count all sentences
-    #self.squeeze(".?!").split(/[.?!]/).count
-    if self.count("")
-      return 0
-    end 
+    self.squeeze(".?!").split(/[.?!]/).count
+
   end 
 end
