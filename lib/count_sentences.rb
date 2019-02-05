@@ -31,6 +31,7 @@ class String
     #self.split(".?!")
     #count all sentences
     #self.squeeze(".?!").split(/[.?!]/).count
-    if self.squeeze(".?!").split(/[.?!]/).count == 0 
+    if self.count("")
+      return 0
   end 
 end
